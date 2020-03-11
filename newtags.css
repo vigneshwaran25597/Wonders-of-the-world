@@ -1,0 +1,146 @@
+header
+{
+    height: 90px;
+    border: 0.0px solid;
+}
+nav{
+    height: 52px;
+    border:0.0px solid;
+    
+}
+section{
+    height:460px;
+    border: 0.0px solid;
+    width:24.7%;
+
+}
+aside{
+    height:460px;
+    border:0.0px solid;
+    float: right;
+    margin-top: -462px;
+    width:75%;
+    
+}
+footer{
+    height: 52px;
+    border:0.0px solid;
+}
+
+ header{
+            background-image: url(header1.jpg);
+            background-repeat:repeat-x;
+            background-size: 33.3%;
+        }
+
+h1{
+    text-align: center;
+    color:blue;
+    
+}
+
+table,tr,td{
+    border:0.0px solid;
+    border-collapse:collapse;
+    height:48px;
+}
+
+table{
+    width: 50%;
+    margin-left: 30%;
+}
+
+td{
+    font-size: 45px;
+    
+}
+
+nav{
+    background-color: lightseagreen;
+    background-size: cover;
+    
+}
+
+        a:hover{
+        background-color: aliceblue;
+        }
+
+        #section1{
+            border:1px solid pink ;
+            height:112px;
+            width:307px;
+            transform: rotateY(360deg);
+            transition-duration: 5s;
+            
+            
+        }
+
+        #section2{
+            border:1px solid blue;
+            height:113px;
+            width:308px;
+            transform: rotateY(360deg);
+            transition-duration: 5s;
+            
+          
+        }
+
+        #section3{
+            border:1px solid purple;
+            height:113px;
+            width:308px;
+            transform: rotateY(360deg);
+            transition-duration: 5s;
+            
+    
+        }
+
+        #section4{
+             border:1px solid red;
+            height:114px;
+            width:308px;
+            transform: rotateY(360deg);
+            transition-duration: 5s;
+            
+        }
+
+aside{
+    background-image: url(ocean.jpg);
+    background-repeat: no-repeat;
+   background-size:cover;
+    animation-name: aside;
+    animation-duration: 10s;
+}
+
+@keyframes aside{
+    from{background-image:url(nature.jpg);}
+    to{background-image: url(4k1.jpg);}
+}
+
+        #aside1{
+        border:0.0px solid;
+        height:155px;
+        width:310px;
+       
+        }
+
+        #aside2{
+        border:0.0px solid;
+        height:155px;
+        width:310px;
+        margin-left: 312px;
+        
+         }
+
+        #aside3{
+        border:0.0px solid;
+        height:145px;
+        width:308px;
+        float:right;
+        
+        }
+        mark
+         {
+         font-size: 45px;
+             color:darkorange;
+         }
